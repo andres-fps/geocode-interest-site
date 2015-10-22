@@ -17,7 +17,7 @@ def closeDBConnection():
 def connectToDB():
     try:
         global conn
-        conn = psycopg2.connect("dbname='gisdb' user='postgres' host='localhost' password='nemesis'")
+        conn = psycopg2.connect("dbname='gisdb' user='postgres' host='localhost' password='root'")
         cursor = conn.cursor()
         cursor.execute('DELETE FROM users_x_points_of_interest')
         cursor.execute('DELETE FROM points_of_interest_como')
