@@ -5,13 +5,14 @@ This python script downloads the coordinates of a set of points of interests def
 
 The following python libraries are required, therefore you should install those not available on your computer:
 
-json
-math
-PyV8
-psycopg2
-sys
-urllib
+json -
+math -
+PyV8 -
+psycopg2 -
+sys -
+urllib -
 pyproj
+
 
 License
 =======
